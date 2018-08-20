@@ -1,2 +1,5 @@
 ---
 # handlers file for role_test1
+
+- name: using git module
+  action: git repo=blah
