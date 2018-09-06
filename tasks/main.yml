@@ -5,4 +5,14 @@
   sudo: true
   lineinfile:
     path: /etc/inputrc
+    state: present
     line: '# added via ansible'
+- name: application service
+  docker:
+    name: myservice
+    image: someuser/serviceimage
+    state: restarted
+- name: Copy local file to remote
+  copy:
+    src: vars.yml
+    dest: {{ dest_proj_path }}/config/ansible/vars.yml
