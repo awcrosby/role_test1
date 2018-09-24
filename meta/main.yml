@@ -37,7 +37,7 @@ galaxy_info:
   #   - name: Fedora
   #     versions:
   #     - 25
-  cloud_platforms = ['non_existent']
+  cloud_platforms: ['non_existent']
   
   # - name: SomePlatform
   #   versions:
