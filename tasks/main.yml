@@ -15,5 +15,4 @@
 - name: Copy local file to remote
   copy:
     src: vars.yml
-    src: vars.yml
-    dest: {{ dest_proj_path }}/config/ansible/vars.yml
+    dest: "{{ dest_proj_path }}/config/ansible/vars.yml"
