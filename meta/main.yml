@@ -32,10 +32,13 @@ galaxy_info:
   #
   # platforms is a list of platforms, and each platform has a name and a list of versions.
   #
-  platforms:
-  - name: Fedora
-    versions:
-    - 25
+  
+  #   platforms:
+  #   - name: Fedora
+  #     versions:
+  #     - 25
+  cloud_platforms: ['non_existent']
+  
   # - name: SomePlatform
   #   versions:
   #   - all
@@ -43,7 +46,9 @@ galaxy_info:
   #   - 7
   #   - 99.99
 
-  galaxy_tags: ['linting']
+  #   galaxy_tags: ['linting']
+  galaxy_tags: ['database', 's q l']
+  
     # List tags for your role here, one per line. A tag is a keyword that describes
     # and categorizes the role. Users find roles by searching for tags. Be sure to
     # remove the '[]' above, if you add tags to this list.
@@ -51,6 +56,6 @@ galaxy_info:
     # NOTE: A tag is limited to a single word comprised of alphanumeric characters.
     #       Maximum 20 tags per role.
 
-dependencies: []
+dependencies: ['doesnot.exist']
   # List your role dependencies here, one per line. Be sure to remove the '[]' above,
   # if you add dependencies to this list.
