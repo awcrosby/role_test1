@@ -47,7 +47,8 @@ galaxy_info:
   #   - 99.99
 
   #   galaxy_tags: ['linting']
-  galaxy_tags: ['database', 'my s q l']
+  galaxy_tags: ['database', 'my s q l', 'MYTAG']
+  categories: 'my_category_not_in_a_list'
 
     # List tags for your role here, one per line. A tag is a keyword that describes
     # and categorizes the role. Users find roles by searching for tags. Be sure to
