@@ -50,7 +50,7 @@ galaxy_info:
   #   - 7
   #   - 99.99
 
-  galaxy_tags: ['database', 'mysql', 'updated']
+  galaxy_tags: ['database', 'mysql', 'updated', 'database1', 'mysql2', 'updated3']
   # galaxy_tags: [
   #   'database', 'mysql', 'updated',
   #   'database1', 'mysql1', 'updated1',
