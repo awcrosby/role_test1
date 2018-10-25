@@ -1,2 +1,3 @@
 ---
 # defaults file for role_test1
+gitlab_config_template: "gitlab.rb.j2"

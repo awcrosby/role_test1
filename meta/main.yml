@@ -1,7 +1,7 @@
 galaxy_info:
-  author: Andrew Crosby
+  # author: Andrew Crosby
   description: Test role for linting
-  # company: Not applicable
+  company: Not applicable
 
   # If the issue tracker for your role is not on github, uncomment the
   # next line and provide a value
@@ -14,9 +14,9 @@ galaxy_info:
   # - GPLv3
   # - Apache
   # - CC-BY
-  license: GPLv2
+  license: license (GPLv2, CC-BY, etc)
 
-  # min_ansible_version: 2.2
+  min_ansible_version: 2.2
 
   # If this a Container Enabled role, provide the minimum Ansible Container version.
   # min_ansible_container_version:
@@ -34,10 +34,10 @@ galaxy_info:
   #
 
   platforms:
-  - nameZZZ: Fedora
+  - name: Fedora
     versions:
     - 25
-  - nameZZZ: Fedora
+  - name: Fedora
     versions:
     - 25
 
@@ -51,13 +51,12 @@ galaxy_info:
   #   - 99.99
 
   galaxy_tags: [
-    'database', 'mysql', 'updated',
+    'database', 'my SQL', 'updated',
     'database1', 'mysql1', 'updated1',
     'database2', 'mysql2', 'updated2',
     'database3', 'mysql3', 'updated3',
     'database4', 'mysql4', 'updated4',
     'database5', 'mysql5', 'updated5',
-    'database6', 'mysql6', 'updated6',
   ]
   # galaxy_tags: [
   #   'database', 'mysql', 'updated',
@@ -65,7 +64,7 @@ galaxy_info:
   #   'database8', 'mysql8', 'updated8',
   #   'database9', 'mysql9', 'updated9',
   # ]
-  categories: 'my_category_not_in_a_list'
+  # categories: 'my_category_not_in_a_list'
 
     # List tags for your role here, one per line. A tag is a keyword that describes
     # and categorizes the role. Users find roles by searching for tags. Be sure to
