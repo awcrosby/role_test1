@@ -40,6 +40,18 @@ galaxy_info:
   - name: Fedora
     versions:
     - 25
+  - name: Fedora
+    versions:
+    - 25
+  - name: Fedora
+    versions:
+    - 26
+  - name: Fedora
+    versions:
+    - 27
+  - name: Fedora
+    versions:
+    - 28
 
   cloud_platforms: ['digital_ocean']
 
