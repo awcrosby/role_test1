@@ -1,7 +1,7 @@
 galaxy_info:
   author: 007
-  description: Test role for linting
-  company: Not applicable
+  description: 007
+  company: 007
 
   # If the issue tracker for your role is not on github, uncomment the
   # next line and provide a value
@@ -14,9 +14,9 @@ galaxy_info:
   # - GPLv3
   # - Apache
   # - CC-BY
-  license: license (GPLv2, CC-BY, etc)
+  license: 007
 
-  # min_ansible_version: 2.2
+  min_ansible_version: 2.2
 
   # If this a Container Enabled role, provide the minimum Ansible Container version.
   # min_ansible_container_version:
@@ -34,7 +34,7 @@ galaxy_info:
   #
 
   platforms:
-  - name: Fedora
+  - name: 007
     versions:
     - 25
   - name: Fedora
@@ -53,7 +53,7 @@ galaxy_info:
     versions:
     - 28
 
-  cloud_platforms: ['digital_ocean']
+  cloud_platforms: ['digital_ocean', 007]
 
   # - name: SomePlatform
   #   versions:
@@ -69,6 +69,7 @@ galaxy_info:
     'database3', 'mysql3', 'updated3',
     'database4', 'mysql4', 'updated4',
     'database5', 'mysql5', 'updated5',
+     007,
   ]
   # galaxy_tags: [
   #   'database', 'mysql', 'updated',
