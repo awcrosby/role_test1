@@ -1,7 +1,7 @@
 galaxy_info:
   # author: Andrew Crosby
   description: Test role for linting
-  company: Not applicable
+  # company: Not applicable
 
   # If the issue tracker for your role is not on github, uncomment the
   # next line and provide a value
