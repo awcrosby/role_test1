@@ -1,6 +1,7 @@
-galaxy_info:
-  # author: Andrew Crosby
+galaxy_info:  # noqa GAL_INFO__GAL_INFO
   description: Test role for linting
+  # but this is already a comment... # noqa 703
+  # author: Andrew Crosby  # noqa 701
   # company: Not applicable
 
   # If the issue tracker for your role is not on github, uncomment the
@@ -32,7 +33,6 @@ galaxy_info:
   #
   # platforms is a list of platforms, and each platform has a name and a list of versions.
   #
-
   platforms:
   - name: Fedora
     versions:
@@ -85,6 +85,8 @@ galaxy_info:
     # NOTE: A tag is limited to a single word comprised of alphanumeric characters.
     #       Maximum 20 tags per role.
 
-# dependencies: ['badnamespace.mybadrole']
+# dependencies:
+#   - 'badnamespace.mybadrole'  # noqa DEPSDEPSDEPS
+#   - 'an.other'
   # List your role dependencies here, one per line. Be sure to remove the '[]' above,
   # if you add dependencies to this list.
