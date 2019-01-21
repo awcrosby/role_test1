@@ -2,7 +2,6 @@
 # tasks file for role_test1
 
 - name: edit inputrc
-  sudo: true
   lineinfile:
     path: /etc/inputrc
     state: present
