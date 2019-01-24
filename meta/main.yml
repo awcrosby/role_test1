@@ -63,7 +63,7 @@ galaxy_info:  # noqa GAL_INFO__GAL_INFO
   #   - 99.99
 
   galaxy_tags: [
-    'database', 'on2 feature_branch_1', 'updated',
+    'database', 'on3 feature_branch_1', 'updated',
   ]
   # galaxy_tags: [
   #   'database', 'mysql', 'updated',
