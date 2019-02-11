@@ -86,6 +86,7 @@ galaxy_info:
 
 dependencies:
   - 'awcrosby.role_test3'
-  - 'awcrosby.role_test2'
+  - 'awcrosby.ansible_role_apache'
+  - 'awcrosby.ansible_datadog'
   # List your role dependencies here, one per line. Be sure to remove the '[]' above,
   # if you add dependencies to this list.
