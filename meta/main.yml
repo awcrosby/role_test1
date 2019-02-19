@@ -68,6 +68,8 @@ galaxy_info:
     'database3', 'mysql3', 'updated3',
     'database4', 'mysql4', 'updated4',
     'database5', 'mysql5', 'updated5',
+    'database6', 'mysql6', 'updated6',
+    'database7', 'mysql7', 'updated7',
   ]
   # galaxy_tags: [
   #   'database', 'mysql', 'updated',
