@@ -52,7 +52,10 @@ galaxy_info:
     versions:
     - 28
 
-  cloud_platforms: ['digital_ocean']
+  cloud_platforms:
+    - 'aws'
+    - 'azure'
+    - 'invalid_cloud_platform'
 
   # - name: SomePlatform
   #   versions:
