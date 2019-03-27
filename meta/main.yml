@@ -64,7 +64,9 @@ galaxy_info:
   #   - 7
   #   - 99.99
 
-  galaxy_tags: []
+  galaxy_tags:
+    - thisisatag
+    - 3.4
   #   'database', '01 master branch', 'updated',
   #   'database1', 'mysql1', 'updated1',
   #   'database2', 'mysql2', 'updated2',
