@@ -27,7 +27,7 @@ galaxy_info:
   # this branch. If Travis integration is configured, only notifications for this
   # branch will be accepted. Otherwise, in all cases, the repo's default branch
   # (usually master) will be used.
-  github_branch: feature_branch_1
+  # github_branch: feature_branch_1
 
   #
   # platforms is a list of platforms, and each platform has a name and a list of versions.
@@ -52,10 +52,10 @@ galaxy_info:
   #   versions:
   #   - 28
 
-  # cloud_platforms:
-  #   - 'aws'
-  #   - 'azure'
-  #   - 'invalid_cloud_platform'
+  cloud_platforms:
+    - 'aws'
+    - 'azure'
+    - 'digital_ocean'
 
   # - name: SomePlatform
   #   versions:
