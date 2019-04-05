@@ -1,38 +1,69 @@
-XYZRole Name
-=========
+Installing
+==========
 
-A brief description of the role goes here.
+.. installing-docs-inclusion-marker-do-not-remove
 
-Requirements
-------------
+Using Pip
+---------
 
-Any pre-requisites that may not be covered by Ansible itself or the role should be mentioned here. For instance, if the role uses the EC2 module, it may be a good idea to mention in this section that the boto package is required.
+.. code-block:: bash
 
-Role Variables
---------------
+    pip install ansible-lint
 
-A description of the settable variables for this role should go here, including any variables that are in defaults/main.yml, vars/main.yml, and any variables that can/should be set via parameters to the role. Any variables that are read from other roles and/or the global scope (ie. hostvars, group vars, etc.) should be mentioned here as well.
+.. _installing_from_source:
 
-Dependencies
-------------
+From Source
+-----------
 
-A list of other roles hosted on Galaxy should go here, plus any details in regards to parameters that may need to be set for other roles, or variables that are used from other roles.
+.. code-block:: bash
 
-Example Playbook
-----------------
+    pip install git+https://github.com/ansible/ansible-lint.git
 
-Including an example of how to use your role (for instance, with variables passed in as parameters) is always nice for users too:
+.. installing-docs-inclusion-marker-end-do-not-remove
 
-    - hosts: servers
-      roles:
-         - { role: username.rolename, x: 42 }
+Usage
+=====
 
-License
--------
+.. usage-docs-inclusion-marker-do-not-remove
 
-BSD
+Command Line Options
+--------------------
 
-Author Information
-------------------
+The following is the output from ``ansible-lint --help``, providing an overview of the basic command line options:
 
-An optional section for the role authors to include contact information, or a website (HTML is not allowed).
+.. code-block:: bash
+
+    Usage: ansible-lint playbook.yml|roledirectory ...
+
+    Options:
+      --version             show program's version number and exit
+      -h, --help            show this help message and exit
+      -L                    list all the rules
+      -q                    quieter, although not silent output
+      -p                    parseable output in the format of pep8
+      -r RULESDIR           specify one or more rules directories using one or
+                            more -r arguments. Any -r flags override the default
+                            rules in ['/path/to/ansible-
+                            lint/lib/ansiblelint/rules'], unless -R is also used.
+      -R                    Use default rules ['/path/to/ansible-
+                            lint/lib/ansiblelint/rules'] in addition to any extra
+                            rules directories specified with -r. There is no need
+                            to specify this if no -r flags are used
+      -t TAGS               only check rules whose id/tags match these values
+      -T                    list all the tags
+      -x SKIP_LIST          only check rules whose id/tags do not match these
+                            values
+      --exclude=EXCLUDE_PATHS
+                            path to directories or files to skip. This option is
+                            repeatable.
+      --force-color         Try force colored output (relying on ansible's code)
+      --nocolor             disable colored output
+      -c /path/to/file      Specify configuration file to use.  Defaults to
+                              ".ansible-lint"
+
+
+
+Linting Playbooks and Roles
+---------------------------
+
+It's important to note that ``ansible-lint`` accepts a list of Ansible playbook files or a list of role directories. Starting from a directory that contains the following, the playbook file, ``playbook.yml``, or one of the role subdirectories, such as ``geerlingguy.apache``, can be passed:
