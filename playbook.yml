@@ -1,0 +1,39 @@
+---
+
+- name: Test playbook
+  hosts: localhost
+  # sudo: true # noqa 103
+  tasks:
+  - name: return motd to registered var
+    command: cat /etc/motd
+    register: mymotd
+  - name: edit inputrc
+    become: true # noqa 103xxxxxx
+    lineinfile:
+      path: /etc/inputrc
+      state: present
+      line: '# added via ansible'
+  - name: working docker
+    docker:
+      name: myservice
+      image: someuser/serviceimage
+      state: restarted
+  - name: Copy local file to remote
+    copy:
+      src: vars.yml
+      dest: "{{ dest_proj_path }}/config/ansible/vars.yml"
+# 
+# - name: Test second playbook
+#   hosts: localhost
+#   sudo: true
+#   tasks:
+#   - name: application service
+#     docker:  # noqa 105
+#       name: myservice
+#       image: someuser/serviceimage
+#       state: restarted
+#   - name: Check if correct version is installed
+#     command: "<application> --version"
+#     register: current_version
+#     args:
+#       warn: False
