@@ -1,6 +1,6 @@
 galaxy_info:
   description: Test role for linting
-  author: Andrew Crosby
+  author: 007
   # company: Not applicable
   role_name: repo_role_test1
 
@@ -54,7 +54,7 @@ galaxy_info:
   #   - 99.99
 
   galaxy_tags: [
-     2019, 'database', '01 master branch', 'updated',
+     'database', '01 master branch', 'updated',
      'database1', 'mysql1', 'updated1',
   ]
   #   'database2', 'mysql2', 'updated2',
