@@ -2,7 +2,7 @@ galaxy_info:
   description: Test role for linting
   author: 007
   # company: Not applicable
-  role_name: repo1-role.test1
+  role_name: RRrepo1_role_test1
 
   # If the issue tracker for your role is not on github, uncomment the
   # next line and provide a value
