@@ -13,7 +13,7 @@
   lineinfile:
     path: /etc/inputrc
     state: present
-    line: '# added via ansible'
+    line: '# this added via ansible'
 - name: application service
   docker:  # noqa 105
     name: myservice
