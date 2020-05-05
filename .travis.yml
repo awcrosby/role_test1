@@ -8,4 +8,4 @@ script:
 #   - ansible-playbook tests/test.yml -i tests/inventory --syntax-check
 
 notifications:
-  webhooks: https://galaxy-dev.ansible.com/api/v1/notifications/
+  webhooks: https://galaxy.ansible.com/api/v1/notifications/
